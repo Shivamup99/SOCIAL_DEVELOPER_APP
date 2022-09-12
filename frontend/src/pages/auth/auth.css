@@ -1,0 +1,95 @@
+.login {
+    height: 610px;
+    width: 1263px;
+    overflow: hidden;
+    position: relative;
+}
+.login img {
+    background-size: cover;
+    background-position: center;
+    height: 610px;
+    width: 1263px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+}
+.login .login-box {
+    width: 600px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.login .login-box h1 {
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: rgba(29, 121, 186, 0.922);
+    font-size: 46px;
+    font-weight: 900;
+}
+.login .login-box .login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.login .login-box .login-content .input-email, .login .login-box .login-content .input-password, .login .login-box .login-content .input-name {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.login .login-box .login-content .input-email input, .login .login-box .login-content .input-password input, .login .login-box .login-content .input-name input {
+    width: 100%;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 3pt 0.3pt #d3d3d3;
+}
+.login .login-box .auth-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login .login-box .auth-btn button {
+    width: 130px;
+    text-align: center;
+    background-color: #bb3b7b;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 130px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+.login .login-box .auth-btn button:hover {
+    background-color: rgba(116, 13, 64, 0.694);
+    transform: scale(1.1);
+}
+.login .login-box .auth-btn .reg {
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.login .login-box .auth-btn .reg:hover {
+    color: rgba(190, 71, 24, 0.916);
+}
